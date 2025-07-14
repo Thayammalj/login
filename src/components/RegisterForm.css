@@ -1,0 +1,131 @@
+form {
+  width: 100%;
+  
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: relative;
+}
+
+.input-wrapper {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.error-msg-inline {
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  font-size: 13px;
+  color: red;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.error-msg-inline svg {
+  font-size: 12px;
+  color: red;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-weight: 600;
+  
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
+/* Show error messages in red */
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+/* Input styling for login too */
+.input-field {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Password eye icon styling */
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper .eye-icon {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+  color: #555;
+}
+
+/* Submit button for both login and register */
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2962ff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.input-wrapper {
+  margin-bottom: 15px;
+}
+
+.error-msg-inline {
+  display: block;
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+  padding-left: 2px;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+  cursor: pointer;
+  color: #555;
+}
+
+.password-wrapper {
+  position: relative;
+}
